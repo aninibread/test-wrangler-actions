@@ -16,7 +16,7 @@ export async function GET(request: NextRequest) {
   // const myKv = getRequestContext().env.MY_KV_NAMESPACE
   // await myKv.put('suffix', ' from a KV store!')
   // const suffix = await myKv.get('suffix')
-  // responseText += suffix
+  // responseText += suffixsss
   //new comment
 
   return new Response(responseText)
